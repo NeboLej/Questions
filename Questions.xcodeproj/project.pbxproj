@@ -14,8 +14,8 @@
 		FA768A2E28511B86007378B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA768A2C28511B86007378B0 /* Main.storyboard */; };
 		FA768A3028511B8C007378B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA768A2F28511B8C007378B0 /* Assets.xcassets */; };
 		FA768A3328511B8C007378B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA768A3128511B8C007378B0 /* LaunchScreen.storyboard */; };
-		FA768A5328512F59007378B0 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5228512F59007378B0 /* Component.swift */; };
-		FA768A5528512F67007378B0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5428512F67007378B0 /* Extension.swift */; };
+		FA768A5328512F59007378B0 /* QSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5228512F59007378B0 /* QSearchBar.swift */; };
+		FA768A5528512F67007378B0 /* UIView+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5428512F67007378B0 /* UIView+Storyboard.swift */; };
 		FA768A5A28512FA1007378B0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5928512FA0007378B0 /* Service.swift */; };
 		FA768A5E2851305D007378B0 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5D2851305D007378B0 /* Repository.swift */; };
 /* End PBXBuildFile section */
@@ -32,8 +32,8 @@
 		FA768A2F28511B8C007378B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA768A3228511B8C007378B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA768A3428511B8C007378B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA768A5228512F59007378B0 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
-		FA768A5428512F67007378B0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FA768A5228512F59007378B0 /* QSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSearchBar.swift; sourceTree = "<group>"; };
+		FA768A5428512F67007378B0 /* UIView+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Storyboard.swift"; sourceTree = "<group>"; };
 		FA768A5928512FA0007378B0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		FA768A5D2851305D007378B0 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +65,13 @@
 				8BBAB502BD72AA1B95E8F59C /* Pods-Questions.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA03FEE428528C7D00A47E2D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		FA768A1A28511B86007378B0 = {
@@ -110,6 +117,7 @@
 		FA768A4E28512E95007378B0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FA03FEE428528C7D00A47E2D /* Cells */,
 				FA768A2C28511B86007378B0 /* Main.storyboard */,
 				FA768A3128511B8C007378B0 /* LaunchScreen.storyboard */,
 			);
@@ -127,7 +135,7 @@
 		FA768A5028512EB2007378B0 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FA768A5228512F59007378B0 /* Component.swift */,
+				FA768A5228512F59007378B0 /* QSearchBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -135,7 +143,7 @@
 		FA768A5128512EC0007378B0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FA768A5428512F67007378B0 /* Extension.swift */,
+				FA768A5428512F67007378B0 /* UIView+Storyboard.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -307,9 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA768A5E2851305D007378B0 /* Repository.swift in Sources */,
-				FA768A5528512F67007378B0 /* Extension.swift in Sources */,
+				FA768A5528512F67007378B0 /* UIView+Storyboard.swift in Sources */,
 				FA768A2B28511B86007378B0 /* ViewController.swift in Sources */,
-				FA768A5328512F59007378B0 /* Component.swift in Sources */,
+				FA768A5328512F59007378B0 /* QSearchBar.swift in Sources */,
 				FA768A2728511B86007378B0 /* AppDelegate.swift in Sources */,
 				FA768A2928511B86007378B0 /* SceneDelegate.swift in Sources */,
 				FA768A5A28512FA1007378B0 /* Service.swift in Sources */,
@@ -445,6 +453,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
