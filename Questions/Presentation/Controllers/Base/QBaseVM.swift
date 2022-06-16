@@ -26,18 +26,18 @@ class QBaseVM {
         _parent?.checkExistFile(url: url)
     }
     
-    func rxDownloadImage( url: String, width: Int = 0, height: Int = 0 ) -> Single<String>
-    {
-        if let downloadService = downloadService
-        {
-            return downloadService
-                .RxDownloadImage( url: url, width: width, height: height )
-                .catchAndReturn( "" )
-                .observe( on: bindScheduler )
-        }
-        
-        return Single.just( "" )
-    }
+//    func rxDownloadImage( url: String, width: Int = 0, height: Int = 0 ) -> Single<String>
+//    {
+//        if let downloadService = downloadService
+//        {
+//            return downloadService
+//                .RxDownloadImage( url: url, width: width, height: height )
+//                .catchAndReturn( "" )
+//                .observe( on: bindScheduler )
+//        }
+//
+//        return Single.just( "" )
+//    }
     
 }
 

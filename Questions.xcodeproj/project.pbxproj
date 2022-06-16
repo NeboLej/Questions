@@ -10,7 +10,7 @@
 		5E2B4E04CE7A56D1D0C73D7B /* Pods_Questions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3800E43FC82DD7431DDC60EA /* Pods_Questions.framework */; };
 		FA768A2728511B86007378B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A2628511B86007378B0 /* AppDelegate.swift */; };
 		FA768A2928511B86007378B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A2828511B86007378B0 /* SceneDelegate.swift */; };
-		FA768A2B28511B86007378B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A2A28511B86007378B0 /* ViewController.swift */; };
+		FA768A2B28511B86007378B0 /* QMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A2A28511B86007378B0 /* QMainController.swift */; };
 		FA768A2E28511B86007378B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA768A2C28511B86007378B0 /* Main.storyboard */; };
 		FA768A3028511B8C007378B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA768A2F28511B8C007378B0 /* Assets.xcassets */; };
 		FA768A3328511B8C007378B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA768A3128511B8C007378B0 /* LaunchScreen.storyboard */; };
@@ -18,6 +18,8 @@
 		FA768A5528512F67007378B0 /* UIView + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5428512F67007378B0 /* UIView + Storyboard.swift */; };
 		FA768A5A28512FA1007378B0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5928512FA0007378B0 /* Service.swift */; };
 		FA768A5E2851305D007378B0 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5D2851305D007378B0 /* Repository.swift */; };
+		FA9C86E2285BEAE100B69BB2 /* QBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C86E1285BEAE100B69BB2 /* QBaseController.swift */; };
+		FA9C86E5285BED7800B69BB2 /* QMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C86E4285BED7800B69BB2 /* QMainViewModel.swift */; };
 		FACAC1C02853F13000FC1C7F /* UIView + shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAC1BF2853F13000FC1C7F /* UIView + shadow.swift */; };
 		FAF50A7E28554C9F00EB5DCD /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF50A7D28554C9F00EB5DCD /* TestCell.xib */; };
 		FAF50A8028554DC900EB5DCD /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF50A7F28554DC900EB5DCD /* TestCell.swift */; };
@@ -34,7 +36,7 @@
 		FA768A2328511B86007378B0 /* Questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA768A2628511B86007378B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA768A2828511B86007378B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA768A2A28511B86007378B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA768A2A28511B86007378B0 /* QMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QMainController.swift; sourceTree = "<group>"; };
 		FA768A2D28511B86007378B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA768A2F28511B8C007378B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA768A3228511B8C007378B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +45,8 @@
 		FA768A5428512F67007378B0 /* UIView + Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Storyboard.swift"; sourceTree = "<group>"; };
 		FA768A5928512FA0007378B0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		FA768A5D2851305D007378B0 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		FA9C86E1285BEAE100B69BB2 /* QBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QBaseController.swift; sourceTree = "<group>"; };
+		FA9C86E4285BED7800B69BB2 /* QMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QMainViewModel.swift; sourceTree = "<group>"; };
 		FACAC1BF2853F13000FC1C7F /* UIView + shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + shadow.swift"; sourceTree = "<group>"; };
 		FAF50A7D28554C9F00EB5DCD /* TestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
 		FAF50A7F28554DC900EB5DCD /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
@@ -142,8 +146,8 @@
 		FA768A4F28512EA3007378B0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FA9C86E3285BED6300B69BB2 /* Main */,
 				FAF50A8128554E0100EB5DCD /* Base */,
-				FA768A2A28511B86007378B0 /* ViewController.swift */,
 				FAF50A7F28554DC900EB5DCD /* TestCell.swift */,
 			);
 			path = Controllers;
@@ -218,12 +222,22 @@
 			path = Resourses;
 			sourceTree = "<group>";
 		};
+		FA9C86E3285BED6300B69BB2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FA768A2A28511B86007378B0 /* QMainController.swift */,
+				FA9C86E4285BED7800B69BB2 /* QMainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		FAF50A8128554E0100EB5DCD /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				FAF50A8228554E3500EB5DCD /* QBaseCollectionViewCell.swift */,
 				FAF50A8428554EBB00EB5DCD /* QBaseVM.swift */,
 				FAF50A892855539E00EB5DCD /* QBaseViewModel.swift */,
+				FA9C86E1285BEAE100B69BB2 /* QBaseController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -355,13 +369,15 @@
 				FA768A5E2851305D007378B0 /* Repository.swift in Sources */,
 				FA768A5528512F67007378B0 /* UIView + Storyboard.swift in Sources */,
 				FACAC1C02853F13000FC1C7F /* UIView + shadow.swift in Sources */,
+				FA9C86E5285BED7800B69BB2 /* QMainViewModel.swift in Sources */,
 				FAF50A8A2855539F00EB5DCD /* QBaseViewModel.swift in Sources */,
 				FAF50A8528554EBB00EB5DCD /* QBaseVM.swift in Sources */,
-				FA768A2B28511B86007378B0 /* ViewController.swift in Sources */,
+				FA768A2B28511B86007378B0 /* QMainController.swift in Sources */,
 				FAF50A8028554DC900EB5DCD /* TestCell.swift in Sources */,
 				FAF50A882855533E00EB5DCD /* String.swift in Sources */,
 				FA768A5328512F59007378B0 /* QSearchBar.swift in Sources */,
 				FA768A2728511B86007378B0 /* AppDelegate.swift in Sources */,
+				FA9C86E2285BEAE100B69BB2 /* QBaseController.swift in Sources */,
 				FA768A2928511B86007378B0 /* SceneDelegate.swift in Sources */,
 				FA768A5A28512FA1007378B0 /* Service.swift in Sources */,
 				FAF50A8328554E3500EB5DCD /* QBaseCollectionViewCell.swift in Sources */,

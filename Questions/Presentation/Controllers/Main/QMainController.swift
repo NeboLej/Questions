@@ -7,10 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class QMainController: QBaseController<QMainViewModel> {
     
     @IBOutlet weak var newsView: UIView!
-    
     
     override func viewDidLayoutSubviews() {
         setupView()
