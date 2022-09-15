@@ -8,6 +8,8 @@ def shared_pods
   pod 'RxCocoa',    '~> 6.1'
   pod 'RxRelay',    '~> 6.1'
   pod 'GRDB.swift', '4.2.1'
+  pod 'SwiftMVVM-Rx-SOA', :git => 'https://github.com/AlexExiv/SwiftMVVM-Rx-SOA.git', :branch => 'rxswift-6.1'
+  pod 'RxEntity', :git => 'https://github.com/AlexExiv/RxEntity-Swift.git', :branch => 'release/0.7.0'
 end
 
 target 'Questions' do
