@@ -18,7 +18,6 @@ class QMainController: QBaseController<QMainViewModel> {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
     }
 
     private func setupView()

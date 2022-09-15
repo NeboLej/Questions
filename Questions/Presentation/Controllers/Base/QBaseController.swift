@@ -15,7 +15,7 @@ class QBaseController<VM: QBaseViewModel> : UIViewController {
     
     private(set) public var viewModel: VM! = nil
     
-    public func BindVM( vm: QBaseViewModel )
+    public func bindVM( vm: QBaseViewModel )
     {
         viewModel = (vm as! VM)
     }
