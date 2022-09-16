@@ -16,8 +16,6 @@
 		FA768A3328511B8C007378B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA768A3128511B8C007378B0 /* LaunchScreen.storyboard */; };
 		FA768A5328512F59007378B0 /* QSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5228512F59007378B0 /* QSearchBar.swift */; };
 		FA768A5528512F67007378B0 /* UIView + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5428512F67007378B0 /* UIView + Storyboard.swift */; };
-		FA768A5A28512FA1007378B0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5928512FA0007378B0 /* Service.swift */; };
-		FA768A5E2851305D007378B0 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5D2851305D007378B0 /* Repository.swift */; };
 		FA9C86E2285BEAE100B69BB2 /* QBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C86E1285BEAE100B69BB2 /* QBaseController.swift */; };
 		FA9C86E5285BED7800B69BB2 /* QMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C86E4285BED7800B69BB2 /* QMainViewModel.swift */; };
 		FACAC1C02853F13000FC1C7F /* UIView + shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAC1BF2853F13000FC1C7F /* UIView + shadow.swift */; };
@@ -27,6 +25,17 @@
 		FAF50A8528554EBB00EB5DCD /* QBaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF50A8428554EBB00EB5DCD /* QBaseVM.swift */; };
 		FAF50A882855533E00EB5DCD /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF50A872855533E00EB5DCD /* String.swift */; };
 		FAF50A8A2855539F00EB5DCD /* QBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF50A892855539E00EB5DCD /* QBaseViewModel.swift */; };
+		FA768A5A28512FA1007378B0 /* QService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5928512FA0007378B0 /* QService.swift */; };
+		FA768A5E2851305D007378B0 /* TmpRepositoryOnline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA768A5D2851305D007378B0 /* TmpRepositoryOnline.swift */; };
+		FAAA3A2028D377310045495D /* QServiceFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3A1F28D377310045495D /* QServiceFactoryProtocol.swift */; };
+		FAAA3A2228D37A0A0045495D /* TmpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3A2128D37A0A0045495D /* TmpService.swift */; };
+		FAAA3A2628D37C280045495D /* TmpRepositoryOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3A2528D37C280045495D /* TmpRepositoryOffline.swift */; };
+		FAAA3A2828D37C9C0045495D /* QRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3A2728D37C9C0045495D /* QRepository.swift */; };
+		FAAA3A2A28D37CCB0045495D /* QRepositoryOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3A2928D37CCB0045495D /* QRepositoryOffline.swift */; };
+		FAAA3A2C28D37D230045495D /* QRepositoryOnline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3A2B28D37D230045495D /* QRepositoryOnline.swift */; };
+		FAAA3A2E28D37D940045495D /* TmpRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3A2D28D37D940045495D /* TmpRepositoryProtocol.swift */; };
+		FAAA3A3028D391D80045495D /* QServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3A2F28D391D80045495D /* QServiceFactory.swift */; };
+		FAAA3A3228D3934A0045495D /* TmpServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA3A3128D393490045495D /* TmpServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +63,17 @@
 		FAF50A8428554EBB00EB5DCD /* QBaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QBaseVM.swift; sourceTree = "<group>"; };
 		FAF50A872855533E00EB5DCD /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		FAF50A892855539E00EB5DCD /* QBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QBaseViewModel.swift; sourceTree = "<group>"; };
+		FA768A5928512FA0007378B0 /* QService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QService.swift; sourceTree = "<group>"; };
+		FA768A5D2851305D007378B0 /* TmpRepositoryOnline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpRepositoryOnline.swift; sourceTree = "<group>"; };
+		FAAA3A1F28D377310045495D /* QServiceFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QServiceFactoryProtocol.swift; sourceTree = "<group>"; };
+		FAAA3A2128D37A0A0045495D /* TmpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpService.swift; sourceTree = "<group>"; };
+		FAAA3A2528D37C280045495D /* TmpRepositoryOffline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpRepositoryOffline.swift; sourceTree = "<group>"; };
+		FAAA3A2728D37C9C0045495D /* QRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRepository.swift; sourceTree = "<group>"; };
+		FAAA3A2928D37CCB0045495D /* QRepositoryOffline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRepositoryOffline.swift; sourceTree = "<group>"; };
+		FAAA3A2B28D37D230045495D /* QRepositoryOnline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRepositoryOnline.swift; sourceTree = "<group>"; };
+		FAAA3A2D28D37D940045495D /* TmpRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpRepositoryProtocol.swift; sourceTree = "<group>"; };
+		FAAA3A2F28D391D80045495D /* QServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QServiceFactory.swift; sourceTree = "<group>"; };
+		FAAA3A3128D393490045495D /* TmpServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +213,11 @@
 		FA768A5828512F91007378B0 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				FA768A5928512FA0007378B0 /* Service.swift */,
+				FAAA3A1F28D377310045495D /* QServiceFactoryProtocol.swift */,
+				FAAA3A2F28D391D80045495D /* QServiceFactory.swift */,
+				FA768A5928512FA0007378B0 /* QService.swift */,
+				FAAA3A3128D393490045495D /* TmpServiceProtocol.swift */,
+				FAAA3A2128D37A0A0045495D /* TmpService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -209,7 +233,10 @@
 		FA768A5C28513043007378B0 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				FA768A5D2851305D007378B0 /* Repository.swift */,
+				FAAA3A2728D37C9C0045495D /* QRepository.swift */,
+				FAAA3A2428D37BB20045495D /* Offline */,
+				FAAA3A2328D37B8F0045495D /* Online */,
+				FAAA3A2D28D37D940045495D /* TmpRepositoryProtocol.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -248,6 +275,24 @@
 				FAF50A872855533E00EB5DCD /* String.swift */,
 			);
 			path = Extensions;
+            sourceTree = "<group>";
+        };
+		FAAA3A2328D37B8F0045495D /* Online */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA3A2B28D37D230045495D /* QRepositoryOnline.swift */,
+				FA768A5D2851305D007378B0 /* TmpRepositoryOnline.swift */,
+			);
+			path = Online;
+			sourceTree = "<group>";
+		};
+		FAAA3A2428D37BB20045495D /* Offline */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA3A2928D37CCB0045495D /* QRepositoryOffline.swift */,
+				FAAA3A2528D37C280045495D /* TmpRepositoryOffline.swift */,
+			);
+			path = Offline;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,7 +411,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA768A5E2851305D007378B0 /* Repository.swift in Sources */,
 				FA768A5528512F67007378B0 /* UIView + Storyboard.swift in Sources */,
 				FACAC1C02853F13000FC1C7F /* UIView + shadow.swift in Sources */,
 				FA9C86E5285BED7800B69BB2 /* QMainViewModel.swift in Sources */,
@@ -376,11 +420,21 @@
 				FAF50A8028554DC900EB5DCD /* TestCell.swift in Sources */,
 				FAF50A882855533E00EB5DCD /* String.swift in Sources */,
 				FA768A5328512F59007378B0 /* QSearchBar.swift in Sources */,
+				FA768A5E2851305D007378B0 /* TmpRepositoryOnline.swift in Sources */,
+				FAAA3A2E28D37D940045495D /* TmpRepositoryProtocol.swift in Sources */,
+				FAAA3A2228D37A0A0045495D /* TmpService.swift in Sources */,
+				FAAA3A2C28D37D230045495D /* QRepositoryOnline.swift in Sources */,
+				FAAA3A3228D3934A0045495D /* TmpServiceProtocol.swift in Sources */,
+				FAAA3A2828D37C9C0045495D /* QRepository.swift in Sources */,
+				FAAA3A2A28D37CCB0045495D /* QRepositoryOffline.swift in Sources */,
+				FAAA3A3028D391D80045495D /* QServiceFactory.swift in Sources */,
+				FAAA3A2628D37C280045495D /* TmpRepositoryOffline.swift in Sources */,
+				FAAA3A2028D377310045495D /* QServiceFactoryProtocol.swift in Sources */,
 				FA768A2728511B86007378B0 /* AppDelegate.swift in Sources */,
 				FA9C86E2285BEAE100B69BB2 /* QBaseController.swift in Sources */,
 				FA768A2928511B86007378B0 /* SceneDelegate.swift in Sources */,
-				FA768A5A28512FA1007378B0 /* Service.swift in Sources */,
 				FAF50A8328554E3500EB5DCD /* QBaseCollectionViewCell.swift in Sources */,
+				FA768A5A28512FA1007378B0 /* QService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
