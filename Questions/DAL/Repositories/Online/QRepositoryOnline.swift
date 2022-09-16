@@ -15,7 +15,7 @@ class QRepositoryOnline: QRepository {
     
     init(path: String) {
         let baseURL = Bundle.main.object( forInfoDictionaryKey: "BaseDomain") as! String
-        self.path = baseURL + "/" + path
+        self.path = baseURL + path
     }
     func RxJSON() -> Single<JsonWrapper> {
         RxJSON(path: "", method: .get, params: nil, headers: nil)

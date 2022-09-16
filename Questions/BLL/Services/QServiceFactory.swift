@@ -17,7 +17,7 @@ class QServiceFactory: QServiceFactoryProtocol {
         let serviceQueue = DispatchQueue( label: "Model.Queue" )
 //        let serviceScheduler = SerialDispatchQueueScheduler( queue: serviceQueue, internalSerialQueueName: "Cache.Queue" )
         
-        let tmpRepositoryOnline = TmpRepositoryOnline(path: "questions")
+        let tmpRepositoryOnline = TmpRepositoryOnline(path: "/api/questions")
         let tmpRepositoryOffline = TmpRepositoryOffline()
         
         tmpService = TmpService(online: tmpRepositoryOnline, offline: tmpRepositoryOffline, queue: serviceQueue)

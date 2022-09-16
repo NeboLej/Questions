@@ -11,6 +11,9 @@ class QMainController: QBaseController<QMainViewModel> {
     
     @IBOutlet weak var newsView: UIView!
     
+    lazy var kk = viewModel.rxString.map { ff in
+        print(ff)
+    }
     override func viewDidLayoutSubviews() {
         setupView()
     }
@@ -18,7 +21,14 @@ class QMainController: QBaseController<QMainViewModel> {
     override func viewDidLoad()
     {
         super.viewDidLoad()
+//        initRx()
     }
+    
+//    func initRx() {
+//        _ = viewModel.rxString.map { ff in
+//            print(ff)
+//        }
+//    }
 
     private func setupView()
     {
