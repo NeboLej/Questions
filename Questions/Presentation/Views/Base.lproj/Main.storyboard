@@ -163,6 +163,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="4Qp-op-DZZ"/>
                     <connections>
+                        <outlet property="nameLabel" destination="OWf-Y3-6MI" id="2gK-8F-4sN"/>
                         <outlet property="newsView" destination="03j-t2-h5h" id="zjN-r0-cyX"/>
                     </connections>
                 </viewController>

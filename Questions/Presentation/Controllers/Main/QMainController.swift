@@ -10,10 +10,12 @@ import UIKit
 class QMainController: QBaseController<QMainViewModel> {
     
     @IBOutlet weak var newsView: UIView!
+    @IBOutlet weak var nameLabel: UILabel!
     
     lazy var kk = viewModel.rxString.map { ff in
         print(ff)
     }
+
     override func viewDidLayoutSubviews() {
         setupView()
     }
